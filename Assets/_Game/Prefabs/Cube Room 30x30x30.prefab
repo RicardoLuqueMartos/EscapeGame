@@ -229,7 +229,7 @@ GameObject:
   - component: {fileID: 848997567826842266}
   - component: {fileID: 1092049170245109955}
   m_Layer: 0
-  m_Name: Cube 2v2 (door)
+  m_Name: Cube 2v2 (door) (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -658,7 +658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3585464195149274806}
   m_Layer: 0
-  m_Name: Cube Face 20x30
+  m_Name: Cube Face 20x30 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -695,6 +695,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8120879092735877230}
+  - component: {fileID: -7206040372267879549}
   m_Layer: 0
   m_Name: Cube Room 30x30x30
   m_TagString: Untagged
@@ -715,14 +716,51 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3585464195149274806}
   - {fileID: 2861609766075973289}
   - {fileID: 2410134520521102208}
-  - {fileID: 440691188936954322}
   - {fileID: 8697926370663583360}
   - {fileID: 8558223304646119301}
+  - {fileID: 440691188936954322}
+  - {fileID: 3585464195149274806}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-7206040372267879549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059988131719692450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe714206014228847996ee7c31006562, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Doors:
+    Door1:
+      doorTransform: {fileID: 1687059305411772352}
+      onWallPositionX: 15
+      onWallPositionY: 15
+    Door2:
+      doorTransform: {fileID: 1145173361233297961}
+      onWallPositionX: 15
+      onWallPositionY: 15
+    Door3:
+      doorTransform: {fileID: 3970881636931555289}
+      onWallPositionX: 15
+      onWallPositionY: 15
+    Door4:
+      doorTransform: {fileID: 5088407058068718312}
+      onWallPositionX: 15
+      onWallPositionY: 15
+    Door5:
+      doorTransform: {fileID: 3248798311848953559}
+      onWallPositionX: 15
+      onWallPositionY: 15
+    Door6:
+      doorTransform: {fileID: 246511338583302262}
+      onWallPositionX: 15
+      onWallPositionY: 15
 --- !u!1 &2680365183487667516
 GameObject:
   m_ObjectHideFlags: 0
@@ -1600,7 +1638,7 @@ GameObject:
   - component: {fileID: 3954890988768743516}
   - component: {fileID: 4170649964789835122}
   m_Layer: 0
-  m_Name: Cube 2v2 (door)
+  m_Name: Cube 2v2 (door) (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1816,7 +1854,7 @@ GameObject:
   - component: {fileID: 2599540479610858403}
   - component: {fileID: 1634068007177945644}
   m_Layer: 0
-  m_Name: Cube 2v2 (door)
+  m_Name: Cube 2v2 (door) (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1921,7 +1959,7 @@ GameObject:
   m_Component:
   - component: {fileID: 440691188936954322}
   m_Layer: 0
-  m_Name: Cube Face 20x30 (3)
+  m_Name: Cube Face 20x30 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2823,7 +2861,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8697926370663583360}
   m_Layer: 0
-  m_Name: Cube Face 20x30 (1)
+  m_Name: Cube Face 20x30 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2969,7 +3007,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2861609766075973289}
   m_Layer: 0
-  m_Name: Cube Face 20x20
+  m_Name: Cube Face 20x20 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3118,7 +3156,7 @@ GameObject:
   - component: {fileID: 2938564796736938598}
   - component: {fileID: 987382279622508983}
   m_Layer: 0
-  m_Name: Cube 2v2 (door)
+  m_Name: Cube 2v2 (door) (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3331,7 +3369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2410134520521102208}
   m_Layer: 0
-  m_Name: Cube Face 20x20 (1)
+  m_Name: Cube Face 20x20 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3480,7 +3518,7 @@ GameObject:
   - component: {fileID: 1381295323692486301}
   - component: {fileID: 6948251786402209537}
   m_Layer: 0
-  m_Name: Cube 2v2 (door)
+  m_Name: Cube 2v2 (door) (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3696,7 +3734,7 @@ GameObject:
   - component: {fileID: 4870929324477679684}
   - component: {fileID: 2004558499621975391}
   m_Layer: 0
-  m_Name: Cube 2v2 (door)
+  m_Name: Cube 2v2 (door) (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4557,7 +4595,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8558223304646119301}
   m_Layer: 0
-  m_Name: Cube Face 20x30 (2)
+  m_Name: Cube Face 20x30 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

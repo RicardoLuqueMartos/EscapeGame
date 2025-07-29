@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6071174824642868963}
+  - component: {fileID: -753159854591804906}
   m_Layer: 0
   m_Name: Cube Room 20x20x20
   m_TagString: Untagged
@@ -29,14 +30,51 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4351895092393977612}
-  - {fileID: 2320636984299492830}
-  - {fileID: 1947744819460610907}
-  - {fileID: 5454644652579360323}
   - {fileID: 5445023963336428159}
   - {fileID: 8602147793777278729}
+  - {fileID: 1947744819460610907}
+  - {fileID: 5454644652579360323}
+  - {fileID: 2320636984299492830}
+  - {fileID: 4351895092393977612}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-753159854591804906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3227765938427965375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe714206014228847996ee7c31006562, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Doors:
+    Door1:
+      doorTransform: {fileID: 1746910246757420256}
+      onWallPositionX: 10
+      onWallPositionY: 10
+    Door2:
+      doorTransform: {fileID: 2652108051068107158}
+      onWallPositionX: 10
+      onWallPositionY: 10
+    Door3:
+      doorTransform: {fileID: 5235749545984499140}
+      onWallPositionX: 10
+      onWallPositionY: 10
+    Door4:
+      doorTransform: {fileID: 1737285024327469276}
+      onWallPositionX: 10
+      onWallPositionY: 10
+    Door5:
+      doorTransform: {fileID: 8330066004697748289}
+      onWallPositionX: 10
+      onWallPositionY: 10
+    Door6:
+      doorTransform: {fileID: 8055761504814211475}
+      onWallPositionX: 10
+      onWallPositionY: 10
 --- !u!1001 &163984279490279040
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -99,7 +137,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6998445503139724241, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_Name
-      value: Cube Face 20x20
+      value: Cube Face 20x20 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Name
+      value: Cube 2v2 (door) (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -109,6 +151,11 @@ PrefabInstance:
 --- !u!4 &4351895092393977612 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4477597629847212428, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+  m_PrefabInstance: {fileID: 163984279490279040}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8055761504814211475 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7894043499924002579, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
   m_PrefabInstance: {fileID: 163984279490279040}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2168219718226445394
@@ -175,6 +222,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube Face 20x20 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Name
+      value: Cube 2v2 (door) (5)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -183,6 +234,11 @@ PrefabInstance:
 --- !u!4 &2320636984299492830 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4477597629847212428, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+  m_PrefabInstance: {fileID: 2168219718226445394}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8330066004697748289 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7894043499924002579, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
   m_PrefabInstance: {fileID: 2168219718226445394}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2676361685238942423
@@ -247,7 +303,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6998445503139724241, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_Name
-      value: Cube Face 20x20 (1)
+      value: Cube Face 20x20 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Name
+      value: Cube 2v2 (door) (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -257,6 +317,11 @@ PrefabInstance:
 --- !u!4 &1947744819460610907 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4477597629847212428, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+  m_PrefabInstance: {fileID: 2676361685238942423}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5235749545984499140 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7894043499924002579, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
   m_PrefabInstance: {fileID: 2676361685238942423}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5279178111058816645
@@ -321,13 +386,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6998445503139724241, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_Name
-      value: Cube Face 20x20 (4)
+      value: Cube Face 20x20 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Name
+      value: Cube 2v2 (door) (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+--- !u!4 &2652108051068107158 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7894043499924002579, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+  m_PrefabInstance: {fileID: 5279178111058816645}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8602147793777278729 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4477597629847212428, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
@@ -395,13 +469,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6998445503139724241, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_Name
-      value: Cube Face 20x20 (3)
+      value: Cube Face 20x20 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Name
+      value: Cube 2v2 (door) (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+--- !u!4 &1737285024327469276 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7894043499924002579, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+  m_PrefabInstance: {fileID: 8471646087878713295}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5454644652579360323 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4477597629847212428, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
@@ -469,13 +552,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6998445503139724241, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_Name
-      value: Cube Face 20x20 (2)
+      value: Cube Face 20x20 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Name
+      value: Cube 2v2 (door) (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+--- !u!4 &1746910246757420256 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7894043499924002579, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+  m_PrefabInstance: {fileID: 8481125960148900851}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5445023963336428159 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4477597629847212428, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}

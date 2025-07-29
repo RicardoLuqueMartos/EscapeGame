@@ -42,11 +42,31 @@ namespace Player
         [SerializeField] bool correctInclination = true;
         [Range(0.01f, .5f)][SerializeField] float inclinationCorrectionSpeed = .1f;
 
+        public static RBPlayer instance;
+
+        private void Awake()
+        {
+            CreateInstance();
+        }
+
         void Start()
         {
             characterController = GetComponent<CharacterController>();
             //Cursor.lockState = CursorLockMode.Locked;
             //Cursor.visible = false;
+        }
+
+        void CreateInstance()
+        {
+            if (instance == null)
+            {
+                instance = this;
+                DontDestroyOnLoad(gameObject);
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
 
         void Update()
