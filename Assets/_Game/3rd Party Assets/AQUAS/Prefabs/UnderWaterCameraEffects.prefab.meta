@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7e1e1772f6e0f5a4eaaeaa4bc8b4ae48
+timeCreated: 1449842561
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Prefabs/UnderWaterCameraEffects.prefab
+  uploadId: 645158

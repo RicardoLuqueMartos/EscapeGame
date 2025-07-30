@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3d5e0c23578be4f40bc49bf503d09694
+timeCreated: 1452616719
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Demo/Conifer_Desktop/Conifer_Desktop Materials/LOD2/Branches_0.mat
+  uploadId: 645158

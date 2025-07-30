@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4ad3a40692e960b4bbd3671032b4845e
+timeCreated: 1464357590
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Shaders/Water/Desktop&Web/River.shader
+  uploadId: 645158

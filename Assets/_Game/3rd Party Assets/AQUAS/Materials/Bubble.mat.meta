@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6baaa043453123d4e9880780224a292a
+timeCreated: 1452884286
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Materials/Bubble.mat
+  uploadId: 645158

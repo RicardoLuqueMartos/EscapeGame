@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3116d3e25df9b1e43ad1704e067b1708
+timeCreated: 1452616719
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Demo/Conifer_Desktop/Conifer_Desktop Materials/Billboard.mat
+  uploadId: 645158

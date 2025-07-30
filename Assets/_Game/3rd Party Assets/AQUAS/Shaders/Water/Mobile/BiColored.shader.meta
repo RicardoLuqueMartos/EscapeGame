@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 14a84b94c8f9c4f43a74c54fab58830f
+timeCreated: 1468796558
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Shaders/Water/Mobile/BiColored.shader
+  uploadId: 645158

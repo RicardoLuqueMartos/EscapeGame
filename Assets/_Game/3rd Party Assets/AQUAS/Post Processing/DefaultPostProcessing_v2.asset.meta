@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: eb7e57384b05e534d87ecfcbbd9a103d
+timeCreated: 1519480509
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Post Processing/DefaultPostProcessing_v2.asset
+  uploadId: 645158

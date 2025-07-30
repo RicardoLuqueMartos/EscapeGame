@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a39e67a72035048468f6cf58c0551449
+timeCreated: 1455391324
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Materials/Caustics/SecondaryCaustics.mat
+  uploadId: 645158

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 058a8ec0d09dae144b8367a02ff9c65b
+timeCreated: 1464292328
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Materials/Water/Desktop&Web/Presets/Rivers/Deep River.mat
+  uploadId: 645158

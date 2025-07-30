@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f18cde2b0d23de142972d4ce7a3867f4
+timeCreated: 1450279284
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Materials/Water/Mobile/MobileOneColored.mat
+  uploadId: 645158
