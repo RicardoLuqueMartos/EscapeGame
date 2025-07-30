@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: aa9048342df380e4d92213fdad40a94c
+timeCreated: 1449577496
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Shaders/Water/Desktop&Web/2SidedSingleTextured.shader
+  uploadId: 645158

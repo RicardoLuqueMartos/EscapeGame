@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dc831aa19d0b28c408fc496f0f503f0f
+timeCreated: 1449824336
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Materials/Water/Mobile/Presets/Mobile Sewer.mat
+  uploadId: 645158

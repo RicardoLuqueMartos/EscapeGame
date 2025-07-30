@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7ca90df62af20df49bac17e92a0f5766
+timeCreated: 1468796558
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Shaders/Water/Mobile/BiColoredPseudoOpaque.shader
+  uploadId: 645158

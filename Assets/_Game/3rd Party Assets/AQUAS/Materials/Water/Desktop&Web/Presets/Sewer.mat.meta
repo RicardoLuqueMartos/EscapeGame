@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7d25e6e2cd823704789f370f1da18911
+timeCreated: 1450470273
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Materials/Water/Desktop&Web/Presets/Sewer.mat
+  uploadId: 645158

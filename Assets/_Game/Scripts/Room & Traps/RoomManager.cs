@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class RoomManager : MonoBehaviour
 {
-    #region Variables
+    #region Variables   
+    public Vector3 doorToDoorOffset = new();
+
+    public int roomSizeX = 10;
+    public int roomSizeY = 10;
+    public int roomSizeZ = 10;
     [Serializable]
     public class DoorData
     {
-        public Transform doorTransform;
+        public Transform doorTransform;        
         public int onWallPositionX = 0;
         public int onWallPositionY = 0;
     }

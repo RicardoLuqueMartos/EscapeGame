@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 7a4c3d67f1a89e44897f8e2b4746cddf
+timeCreated: 1455391053
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Scripts/AQUAS_SmallBubbleBehaviour.cs
+  uploadId: 645158

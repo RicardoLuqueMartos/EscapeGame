@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a0cbb38c38f8c894faa651bdce259b47
+timeCreated: 1449824336
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Materials/Water/Mobile/Presets/Mobile RTS 2.mat
+  uploadId: 645158

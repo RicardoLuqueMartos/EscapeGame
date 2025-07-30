@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 049fffa5e5f5fe6459a31a0b88489712
+timeCreated: 1450470273
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Materials/Water/Desktop&Web/Presets/Swamp.mat
+  uploadId: 645158

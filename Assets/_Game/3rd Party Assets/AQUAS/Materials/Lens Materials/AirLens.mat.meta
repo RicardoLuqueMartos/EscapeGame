@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 168cf7911afafbd439823562003ea75b
+timeCreated: 1449831843
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Materials/Lens Materials/AirLens.mat
+  uploadId: 645158

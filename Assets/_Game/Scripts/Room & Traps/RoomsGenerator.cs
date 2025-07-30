@@ -6,14 +6,22 @@ using UnityEngine;
 public class RoomsGenerator : MonoBehaviour
 {
     #region Variables
+    [SerializeField] Transform startRoom;
+    [SerializeField] Transform generatedRooms;
+    [SerializeField] Vector3 doorToDoorOffset = new();
+    [SerializeField] int currentGeneratedRoomIndex = 0;
     [Range(1, 5)]
     [SerializeField] int roomsQuantityX = 4;
     [Range(1, 5)]
     [SerializeField] int roomsQuantityY = 3;
-
+    [SerializeField] Transform _parent = null;
+    [SerializeField] GameObject newroom = null;
+    [SerializeField] RoomManager roomManager = null;
+    [SerializeField] RoomManager parentRoomManager = null;
     [SerializeField] List<GameObject> roomsPrefabsList = new List<GameObject>();
     [SerializeField] List<GameObject> tmpRoomsPrefabsList = new List<GameObject>();
     [SerializeField] List<GameObject> usedRoomsList = new List<GameObject>();
+    [SerializeField] List<Transform> generatedRoomsList = new List<Transform>();
 
 
 
@@ -45,12 +53,19 @@ public class RoomsGenerator : MonoBehaviour
         {
             for (int iX = 1; iX <= roomsQuantityX; iX++)
             {
-                GenerateRoom();
+                if (tmpRoomsPrefabsList.Count > 0)
+                {
+                    ChooseRoom();
+                    currentGeneratedRoomIndex = usedRoomsList.Count - 1;
+                    GenerateRoom();
+                    MoveRoom();
+                    OpenDoor();
+                }
             }
         }
     }
 
-    void GenerateRoom()
+    void ChooseRoom()
     {
         // choose randomly a room
         int ran = UnityEngine.Random.Range(0, tmpRoomsPrefabsList.Count);
@@ -61,11 +76,44 @@ public class RoomsGenerator : MonoBehaviour
 
     }
 
+    void GenerateRoom()
+    {
+        newroom = Instantiate(usedRoomsList[currentGeneratedRoomIndex]);
+        generatedRoomsList.Add(newroom.transform);
+
+        if (currentGeneratedRoomIndex == 0) _parent = startRoom;
+        else _parent = generatedRoomsList[generatedRoomsList.Count - 2];
+
+        newroom.transform.parent = _parent;
+        newroom.transform.localPosition = Vector3.zero;
+        newroom.transform.parent = generatedRooms;
+
+
+    }
+
+    void MoveRoom()
+    {
+        roomManager = newroom.GetComponent<RoomManager>();
+        parentRoomManager = _parent.GetComponent<RoomManager>();
+        newroom.transform.position = new Vector3(newroom.transform.position.x+ doorToDoorOffset.x+roomManager.doorToDoorOffset.x,
+            newroom.transform.position.y + doorToDoorOffset.y + roomManager.doorToDoorOffset.y, 
+            newroom.transform.position.z+((roomManager.roomSizeZ*0.5f)+ parentRoomManager.roomSizeZ * 0.5f)+doorToDoorOffset.z + roomManager.doorToDoorOffset.z);
+    }
+
+    void OpenDoor()
+    {
+        if (roomManager && roomManager.Doors.Door2.doorTransform != null)     
+            roomManager.Doors.Door2.doorTransform.gameObject.SetActive(false);
+        if (roomManager && roomManager.Doors.Door1.doorTransform != null)
+            roomManager.Doors.Door1.doorTransform.gameObject.SetActive(false);
+    }
+
     void PrepareTmpRoomsPrefabsList()
     {
         for (int i = 0; i < roomsPrefabsList.Count; i++)
         {
             if (roomsPrefabsList[i] != null) tmpRoomsPrefabsList.Add(roomsPrefabsList[i]);
+
         }        
     }
 }

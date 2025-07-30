@@ -50,6 +50,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe714206014228847996ee7c31006562, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  roomSizeX: 20
+  roomSizeY: 20
+  roomSizeZ: 30
   Doors:
     Door1:
       doorTransform: {fileID: 1492015562050319858}
@@ -123,6 +126,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1538270364946829305, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912208253473690064, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4751235310811894217, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5511951166730666900, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6195626534764163592, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
       propertyPath: m_Name
       value: Cube Face 20x30 (4)
@@ -130,6 +149,18 @@ PrefabInstance:
     - target: {fileID: 6936792882629647161, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
       propertyPath: m_Name
       value: Cube 2v2 (door) (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6936792882629647161, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282576577069649848, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928693250032171448, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -194,6 +225,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1538270364946829305, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912208253473690064, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4751235310811894217, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5511951166730666900, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 6195626534764163592, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
       propertyPath: m_Name
       value: Cube Face 20x30 (6)
@@ -201,6 +248,18 @@ PrefabInstance:
     - target: {fileID: 6936792882629647161, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
       propertyPath: m_Name
       value: Cube 2v2 (door) (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6936792882629647161, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282576577069649848, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928693250032171448, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -265,6 +324,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1538270364946829305, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912208253473690064, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4751235310811894217, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5511951166730666900, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6195626534764163592, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
       propertyPath: m_Name
       value: Cube Face 20x30 (5)
@@ -272,6 +347,18 @@ PrefabInstance:
     - target: {fileID: 6936792882629647161, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
       propertyPath: m_Name
       value: Cube 2v2 (door) (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6936792882629647161, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282576577069649848, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928693250032171448, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -296,6 +383,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 949592853830773168}
     m_Modifications:
+    - target: {fileID: 1328864203931565782, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037215340489739969, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810576296042994573, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3890633143962615688, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4477597629847212428, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -348,6 +451,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5405606234635009774, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6998445503139724241, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_Name
       value: Cube Face 20x20 (2)
@@ -355,6 +462,14 @@ PrefabInstance:
     - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_Name
       value: Cube 2v2 (door) (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8042090040840606615, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -419,6 +534,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1538270364946829305, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2912208253473690064, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4751235310811894217, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5511951166730666900, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6195626534764163592, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
       propertyPath: m_Name
       value: Cube Face 20x30 (3)
@@ -426,6 +557,18 @@ PrefabInstance:
     - target: {fileID: 6936792882629647161, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
       propertyPath: m_Name
       value: Cube 2v2 (door) (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6936792882629647161, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282576577069649848, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928693250032171448, guid: c8d323d3dc063ab4bb62eee5d28d586a, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -450,6 +593,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 949592853830773168}
     m_Modifications:
+    - target: {fileID: 1328864203931565782, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037215340489739969, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810576296042994573, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3890633143962615688, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4477597629847212428, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -502,6 +661,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5405606234635009774, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6998445503139724241, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_Name
       value: Cube Face 20x20 (1)
@@ -509,6 +672,14 @@ PrefabInstance:
     - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_Name
       value: Cube 2v2 (door) (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8042090040840606615, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

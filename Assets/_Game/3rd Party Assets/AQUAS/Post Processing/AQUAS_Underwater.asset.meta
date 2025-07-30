@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7c40cee333a071f429d8e3e45ccd33d6
+timeCreated: 1494780875
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Post Processing/AQUAS_Underwater.asset
+  uploadId: 645158

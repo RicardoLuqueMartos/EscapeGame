@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7232b13ea3e0d074bbad77a1a74ca4cd
+timeCreated: 1449577495
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Shaders/Camera Effects/UnderWaterLens.shader
+  uploadId: 645158

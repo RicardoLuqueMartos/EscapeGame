@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 110292abe86633b43913bdc096061d19
+timeCreated: 1467826822
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Demo/Lake.unity
+  uploadId: 645158

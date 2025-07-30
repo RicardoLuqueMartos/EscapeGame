@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 49c511eaea211ca4cbdf5ae8601068fa
+timeCreated: 1520426893
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Demo/boat.prefab
+  uploadId: 645158

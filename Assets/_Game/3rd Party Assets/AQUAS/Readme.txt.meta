@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 87273659382d621429deeb9edbe7ef1a
+timeCreated: 1450292777
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Readme.txt
+  uploadId: 645158

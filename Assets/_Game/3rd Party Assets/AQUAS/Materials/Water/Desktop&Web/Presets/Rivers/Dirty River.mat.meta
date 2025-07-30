@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e2449425e3d6d6a41934f97844683b20
+timeCreated: 1464292328
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Materials/Water/Desktop&Web/Presets/Rivers/Dirty River.mat
+  uploadId: 645158

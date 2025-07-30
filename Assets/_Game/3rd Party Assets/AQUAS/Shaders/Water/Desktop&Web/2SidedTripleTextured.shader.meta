@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f625f9c13440d4e49bf26284e1c8c132
+timeCreated: 1464357590
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Shaders/Water/Desktop&Web/2SidedTripleTextured.shader
+  uploadId: 645158

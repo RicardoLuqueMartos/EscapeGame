@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f3c19a5a63c2bf04e8c6a70f2053ae59
+timeCreated: 1450470273
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 52103
+  packageName: AQUAS Legacy - Built-In Render Pipeline
+  packageVersion: 1.5.4
+  assetPath: Assets/AQUAS/Materials/Water/Desktop&Web/2SidedTripleTextured.mat
+  uploadId: 645158

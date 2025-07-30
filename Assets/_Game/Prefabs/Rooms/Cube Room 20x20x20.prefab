@@ -50,6 +50,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe714206014228847996ee7c31006562, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  roomSizeX: 20
+  roomSizeY: 20
+  roomSizeZ: 20
   Doors:
     Door1:
       doorTransform: {fileID: 1746910246757420256}
@@ -83,6 +86,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6071174824642868963}
     m_Modifications:
+    - target: {fileID: 1328864203931565782, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037215340489739969, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810576296042994573, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3890633143962615688, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4477597629847212428, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -135,6 +154,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5405606234635009774, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 6998445503139724241, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_Name
       value: Cube Face 20x20 (6)
@@ -142,6 +165,14 @@ PrefabInstance:
     - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_Name
       value: Cube 2v2 (door) (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8042090040840606615, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -166,6 +197,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6071174824642868963}
     m_Modifications:
+    - target: {fileID: 1328864203931565782, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037215340489739969, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810576296042994573, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3890633143962615688, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4477597629847212428, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -218,6 +265,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5405606234635009774, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6998445503139724241, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_Name
       value: Cube Face 20x20 (5)
@@ -225,6 +276,14 @@ PrefabInstance:
     - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_Name
       value: Cube 2v2 (door) (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8042090040840606615, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -249,6 +308,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6071174824642868963}
     m_Modifications:
+    - target: {fileID: 1328864203931565782, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037215340489739969, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810576296042994573, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3890633143962615688, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4477597629847212428, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -301,6 +376,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5405606234635009774, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6998445503139724241, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_Name
       value: Cube Face 20x20 (3)
@@ -308,6 +387,14 @@ PrefabInstance:
     - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_Name
       value: Cube 2v2 (door) (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8042090040840606615, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -332,6 +419,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6071174824642868963}
     m_Modifications:
+    - target: {fileID: 1328864203931565782, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037215340489739969, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810576296042994573, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3890633143962615688, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4477597629847212428, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -384,6 +487,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5405606234635009774, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6998445503139724241, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_Name
       value: Cube Face 20x20 (2)
@@ -391,6 +498,14 @@ PrefabInstance:
     - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_Name
       value: Cube 2v2 (door) (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8042090040840606615, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -415,6 +530,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6071174824642868963}
     m_Modifications:
+    - target: {fileID: 1328864203931565782, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037215340489739969, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810576296042994573, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3890633143962615688, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4477597629847212428, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -467,6 +598,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5405606234635009774, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6998445503139724241, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_Name
       value: Cube Face 20x20 (4)
@@ -474,6 +609,14 @@ PrefabInstance:
     - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_Name
       value: Cube 2v2 (door) (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8042090040840606615, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -498,6 +641,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6071174824642868963}
     m_Modifications:
+    - target: {fileID: 1328864203931565782, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037215340489739969, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810576296042994573, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3890633143962615688, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4477597629847212428, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -550,6 +709,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5405606234635009774, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6998445503139724241, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_Name
       value: Cube Face 20x20 (1)
@@ -557,6 +720,14 @@ PrefabInstance:
     - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
       propertyPath: m_Name
       value: Cube 2v2 (door) (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7468042758409870965, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8042090040840606615, guid: 9ce594ccc684a1e4da8898a7497478ad, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
