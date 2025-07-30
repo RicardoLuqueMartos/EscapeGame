@@ -136,8 +136,8 @@ Transform:
   m_GameObject: {fileID: 98066510986801521}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.5, y: 1.4875202, z: 0.0000066160937}
-  m_LocalScale: {x: 5, y: 2.0249562, z: 2}
+  m_LocalPosition: {x: -2.5, y: 1.4983, z: 0}
+  m_LocalScale: {x: 5, y: 2.0034916, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7029353183284951130}
@@ -698,6 +698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe714206014228847996ee7c31006562, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  doorToDoorOffset: {x: 0, y: 0, z: 0}
   roomSizeX: 20
   roomSizeY: 10
   roomSizeZ: 30
@@ -1440,8 +1441,8 @@ Transform:
   m_GameObject: {fileID: 3722937808827446512}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.5, y: 1.4875202, z: 0.0000070333263}
-  m_LocalScale: {x: 5, y: 2.0249, z: 2}
+  m_LocalPosition: {x: 2.5, y: 1.4983, z: 0}
+  m_LocalScale: {x: 5, y: 2.003436, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7029353183284951130}

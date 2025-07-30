@@ -879,6 +879,14 @@ PrefabInstance:
       propertyPath: doorToDoorOffset.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4507475362881162692, guid: 87deed1151798db46a8645d68ed50854, type: 3}
+      propertyPath: roomsPrefabsList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4507475362881162692, guid: 87deed1151798db46a8645d68ed50854, type: 3}
+      propertyPath: 'roomsPrefabsList.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2059988131719692450, guid: a43605a5e4aff544ea181359ad7550a2, type: 3}
     - target: {fileID: 5818038302578657512, guid: 87deed1151798db46a8645d68ed50854, type: 3}
       propertyPath: m_Name
       value: RoomsGenerator

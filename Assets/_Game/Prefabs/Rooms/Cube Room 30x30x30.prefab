@@ -736,6 +736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe714206014228847996ee7c31006562, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  doorToDoorOffset: {x: 0, y: 0.035, z: 0}
   roomSizeX: 30
   roomSizeY: 30
   roomSizeZ: 30
