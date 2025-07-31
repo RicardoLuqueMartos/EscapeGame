@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace Player
 {
@@ -32,8 +33,11 @@ namespace Player
         [Tooltip("Height of the player while crouching.")]
         public float crouchHeight = 1f;
 
+        [SerializeField] private float movementHorizontal;
+        [SerializeField] private float movementVertical;
         private Vector3 moveDirection = Vector3.zero;
         private float rotationX = 0;
+        private float jumpValue = 0;
         private CharacterController characterController;
 
         private bool canMove = true;
@@ -61,7 +65,6 @@ namespace Player
             if (instance == null)
             {
                 instance = this;
-                DontDestroyOnLoad(gameObject);
             }
             else
             {
@@ -69,20 +72,35 @@ namespace Player
             }
         }
 
+        public void OnMove(InputValue movementValue)
+        {
+            Vector2 movementVector = movementValue.Get<Vector2>();
+
+            movementHorizontal = movementVector.x;
+            movementVertical = movementVector.y;
+        }
+
+        void OnJump(InputValue value)
+        {
+            jumpValue = value.Get<float>();       
+        }
+
+
         void Update()
         {
             Vector3 forward = transform.TransformDirection(Vector3.forward);
             Vector3 right = transform.TransformDirection(Vector3.right);
 
             bool isRunning = Input.GetKey(KeyCode.LeftShift);
-            float curSpeedX = canMove ? (isRunning ? runSpeed : walkSpeed) * Input.GetAxis("Vertical") : 0;
-            float curSpeedZ = canMove ? (isRunning ? runSpeed : walkSpeed) * Input.GetAxis("Horizontal") : 0;
+            float curSpeedX = canMove ? (isRunning ? runSpeed : walkSpeed) * movementVertical : 0;
+            float curSpeedZ = canMove ? (isRunning ? runSpeed : walkSpeed) * movementHorizontal : 0;
             float movementDirectionY = moveDirection.y;
             moveDirection = (forward * curSpeedX) + (right * curSpeedZ);
 
-            if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
+            if (/*Input.GetButton("Jump")*/ jumpValue == 1 && canMove && characterController.isGrounded)
             {
                 moveDirection.y = jumpPower;
+                jumpValue = 0;
             }
             else
             {

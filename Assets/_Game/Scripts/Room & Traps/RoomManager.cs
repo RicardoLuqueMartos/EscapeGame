@@ -31,6 +31,9 @@ public class RoomManager : MonoBehaviour
     }
     public DoorsData Doors = new DoorsData();
 
+    public RoomTypeData assignedRoomType;
+    public SurfaceMaterialsData assignedSurfacesMaterials;
+
     #endregion Variables
 
 

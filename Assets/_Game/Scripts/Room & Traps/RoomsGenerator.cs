@@ -7,6 +7,7 @@ public class RoomsGenerator : MonoBehaviour
 {
     #region Variables
     [SerializeField] Transform startRoom;
+    [SerializeField] Transform endRoom;
     [SerializeField] Transform generatedRooms;
     [SerializeField] Vector3 doorToDoorOffset = new();
     [SerializeField] int currentGeneratedRoomIndex = 0;
@@ -23,15 +24,27 @@ public class RoomsGenerator : MonoBehaviour
     [SerializeField] List<GameObject> usedRoomsList = new List<GameObject>();
     [SerializeField] List<Transform> generatedRoomsList = new List<Transform>();
 
-
+    public static RoomsGenerator instance;
 
     #endregion Variables
 
     private void Awake()
     {
+        CreateInstance();
         LaunchGameGeneration();
     }
 
+    void CreateInstance()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     public void LaunchGameGeneration()
     {
@@ -49,17 +62,24 @@ public class RoomsGenerator : MonoBehaviour
 
     void GenerateRoomsRandomly()
     {
-        for (int iY = 1; iY <= roomsQuantityY; iY++)
+        for (int iY = 1; iY <= roomsQuantityY + 1; iY++)
         {
-            for (int iX = 1; iX <= roomsQuantityX; iX++)
+            if (iY == roomsQuantityY + 1)
             {
-                if (tmpRoomsPrefabsList.Count > 0)
+                PrepareMoveEndRoom();
+            }
+            else
+            {
+                for (int iX = 1; iX <= roomsQuantityX; iX++)
                 {
-                    ChooseRoom();
-                    currentGeneratedRoomIndex = usedRoomsList.Count - 1;
-                    GenerateRoom();
-                    MoveRoom();
-                    OpenDoor();
+                    if (tmpRoomsPrefabsList.Count > 0)
+                    {
+                        ChooseRoom();
+                        currentGeneratedRoomIndex = usedRoomsList.Count - 1;
+                        GenerateRoom();
+                        MoveRoom();
+                        OpenDoor();                        
+                    }
                 }
             }
         }
@@ -87,8 +107,19 @@ public class RoomsGenerator : MonoBehaviour
         newroom.transform.parent = _parent;
         newroom.transform.localPosition = Vector3.zero;
         newroom.transform.parent = generatedRooms;
+    }
 
 
+    void PrepareMoveEndRoom()
+    {
+        newroom = endRoom.gameObject;
+        _parent = generatedRoomsList[generatedRoomsList.Count - 1];
+
+        newroom.transform.parent = _parent;
+        newroom.transform.localPosition = Vector3.zero;
+        newroom.transform.parent = generatedRooms;
+
+        MoveRoom();
     }
 
     void MoveRoom()
@@ -98,6 +129,7 @@ public class RoomsGenerator : MonoBehaviour
         newroom.transform.position = new Vector3(newroom.transform.position.x+ doorToDoorOffset.x+roomManager.doorToDoorOffset.x,
             newroom.transform.position.y + doorToDoorOffset.y + roomManager.doorToDoorOffset.y, 
             newroom.transform.position.z+((roomManager.roomSizeZ*0.5f)+ parentRoomManager.roomSizeZ * 0.5f)+doorToDoorOffset.z + roomManager.doorToDoorOffset.z);
+        RoomTypeManager.instance.AssignRoomType(roomManager);
     }
 
     void OpenDoor()
