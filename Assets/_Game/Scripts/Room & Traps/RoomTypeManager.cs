@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class RoomTypeManager : MonoBehaviour
 {
+    [SerializeField] GameManager gameManager;
+    [SerializeField] RoomMaterialsManager roomMaterialsManager;
     public static RoomTypeManager instance;
 
     private void Awake()
@@ -29,13 +31,13 @@ public class RoomTypeManager : MonoBehaviour
 
     public void ApplyTypeToRoom(RoomTypeData type, RoomManager roomManager)
     {
-        RoomMaterialsManager.instance.ApplyMaterialsToSurfaces(RoomMaterialsManager.instance.RandomizeSurfacesMaterials(type), roomManager);
+        roomMaterialsManager.ApplyMaterialsToSurfaces(roomMaterialsManager.RandomizeSurfacesMaterials(type), roomManager);
     }
 
     public RoomTypeData RandomizeRoomType()
-    {
-        int ran = UnityEngine.Random.Range(0, GameManager.instance.gameSettingsData.roomTypeList.Count);
-        RoomTypeData response = GameManager.instance.gameSettingsData.roomTypeList[ran];
+    {        
+        int ran = UnityEngine.Random.Range(0, gameManager.gameSettingsData.roomTypeList.Count);
+        RoomTypeData response = gameManager.gameSettingsData.roomTypeList[ran];
         return response;
     }
 

@@ -23,15 +23,14 @@ public class RoomsGenerator : MonoBehaviour
     [SerializeField] List<GameObject> tmpRoomsPrefabsList = new List<GameObject>();
     [SerializeField] List<GameObject> usedRoomsList = new List<GameObject>();
     [SerializeField] List<Transform> generatedRoomsList = new List<Transform>();
-
+    
     public static RoomsGenerator instance;
 
     #endregion Variables
 
     private void Awake()
     {
-        CreateInstance();
-        LaunchGameGeneration();
+        CreateInstance();        
     }
 
     void CreateInstance()
@@ -44,6 +43,11 @@ public class RoomsGenerator : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    private void OnEnable()
+    {
+        LaunchGameGeneration();
     }
 
     public void LaunchGameGeneration()
