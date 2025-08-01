@@ -49,6 +49,7 @@ public class PlayerInteract : MonoBehaviour
 
                 if (currentTarget != null)
                 {
+                    Debug.Log("Current Target: " + currentTarget.GetType().Name);
                     currentTarget.IsInteractable(hit);
                     if (Input.GetKeyDown(KeyCode.E))
                     {
