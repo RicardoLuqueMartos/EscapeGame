@@ -99,6 +99,8 @@ GameObject:
   - component: {fileID: 4770133792586843274}
   - component: {fileID: 5004550038624661356}
   - component: {fileID: 54678404342416520}
+  - component: {fileID: 6544816834006568649}
+  - component: {fileID: 2583362658473065689}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -243,6 +245,55 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   isInteracting: 0
+--- !u!114 &6544816834006568649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306421198598740619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 822c08b6ef976e047af36e6e477f468c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactDistance: 1
+  SphereDiameter: 0.1
+  distanceStopInteract: 1
+  interactable:
+    serializedVersion: 2
+    m_Bits: 0
+  isInteracting: 0
+--- !u!114 &2583362658473065689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306421198598740619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfca03ef0fbc4da4bb85b25d38fa49b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  bloodyFrame: {fileID: 0}
+  criticalHealth: 40
+  useBlurEffect: 1
+  blurImage: {fileID: 0}
+  blueBlurImage: {fileID: 0}
+  blurDuration: 0.05
+  blurFadeSpeed: 10
+  pulseSound: {fileID: 0}
+  fadeAudios: 0
+  audiosToFade: []
+  audiosFadeVolume: 0.3
+  autoHeal: 1
+  healingSpeed: 25
+  autoHealTime: 2
+  deathEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2163193813142575818
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,6 +309,7 @@ GameObject:
   - component: {fileID: 6003987945294412375}
   - component: {fileID: 9048840754835589627}
   - component: {fileID: 6389080623498544372}
+  - component: {fileID: 514910700254921727}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -416,3 +468,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93233ad698dcfa049bd1a1e99190744f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHitPoints: 100
+  currentHitPoints: 100
+--- !u!114 &514910700254921727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2163193813142575818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6196ddbe8951c0949976ed9165986366, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxBreathPoints: 100
+  currentBreathPoints: 100
+  canBreath: 1
+  amountToLoose: 4
+  frequencyToLoose: 1

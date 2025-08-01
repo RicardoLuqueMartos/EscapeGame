@@ -16,7 +16,9 @@ public class ScreenDamage : MonoBehaviour
     [Tooltip("Will show a blur effect when hit.")]
     public bool useBlurEffect = true;                                  
     [Tooltip("The radial blur image.")]
-    public Image blurImage;                                             
+    public Image blurImage;
+    [Tooltip("The radial blue blur image.")]
+    public Image blueBlurImage;
     [Tooltip("The duration of the blur effect."), Range(0f, 5f)] 
     public float blurDuration = 0.1f;                   
     [Tooltip("The speed of the blur fading in and out.")]

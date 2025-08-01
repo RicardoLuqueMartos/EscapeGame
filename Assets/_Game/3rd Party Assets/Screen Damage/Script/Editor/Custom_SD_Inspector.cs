@@ -11,6 +11,7 @@ public class Custom_SD_Inspector : Editor
     criticalHealth,
     useBlurEffect,
     blurImage,
+    blueBlurImage,
     blurDuration,
     blurFadeSpeed,
     healingSpeed,
@@ -30,6 +31,7 @@ public class Custom_SD_Inspector : Editor
         criticalHealth = serializedObject.FindProperty("criticalHealth");
         useBlurEffect = serializedObject.FindProperty("useBlurEffect");
         blurImage = serializedObject.FindProperty("blurImage");
+        blueBlurImage = serializedObject.FindProperty("blueBlurImage");
         blurDuration = serializedObject.FindProperty("blurDuration");
         blurFadeSpeed = serializedObject.FindProperty("blurFadeSpeed");
         healingSpeed = serializedObject.FindProperty("healingSpeed");
@@ -68,8 +70,10 @@ public class Custom_SD_Inspector : Editor
         EditorGUI.BeginDisabledGroup (script.useBlurEffect == false);
             // Blur Image
             EditorGUILayout.PropertyField(blurImage);
-            // Blur Duration
-            EditorGUILayout.PropertyField(blurDuration);
+        // blue Blur Image
+        EditorGUILayout.PropertyField(blueBlurImage);
+        // Blur Duration
+        EditorGUILayout.PropertyField(blurDuration);
             // Blur Fade Speed
             EditorGUILayout.PropertyField(blurFadeSpeed);
         EditorGUI.EndDisabledGroup();

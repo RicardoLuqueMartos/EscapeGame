@@ -5,6 +5,24 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] int maxHitPoints = 100;
     public int currentHitPoints = 100;
 
+    public static PlayerHealth instance;
+
+    private void Awake()
+    {
+        CreateInstance();
+    }
+
+    void CreateInstance()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void Start()
     {
