@@ -540,14 +540,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 408564433}
     m_Modifications:
-    - target: {fileID: 514910700254921727, guid: df0b56dab1d99f1468757b154aedcdee, type: 3}
-      propertyPath: amountToLoose
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 514910700254921727, guid: df0b56dab1d99f1468757b154aedcdee, type: 3}
-      propertyPath: frequencyToLoose
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2163193813142575818, guid: df0b56dab1d99f1468757b154aedcdee, type: 3}
       propertyPath: m_Name
       value: Player
